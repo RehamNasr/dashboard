@@ -1,0 +1,172 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0;
+    color:white
+}
+body{
+    margin:0;
+    padding:0
+}
+.contanier{
+    height: 100vh;
+    width: 100vw;
+    background-color:#000013;
+    display: flex;
+}
+/* #0074fe */
+.menue{
+    /* height: 100vh; */
+    width: 4vw;
+    background-color: #111f2f;
+    padding:20px;
+    overflow: hidden;
+    margin-right: 90px;
+
+}
+.menue:hover{
+    width: 20vw;
+    margin-right: 0px;
+  
+
+}
+.content{
+    width: 80vw;
+    padding: 20px;
+    
+}
+.header{
+    display: flex; 
+    align-items: center;
+    margin: 50px 0px;
+
+}
+.menue img{
+  width: 80px;
+  height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+ border: 2px solid white;
+ flex-shrink: 0;
+}
+.menue h1{
+    display: inline-block;
+    margin-left: 20px;
+}
+.menue ul li {
+   list-style-type: none;
+   padding:15px 20px 15px 10px;
+   border-radius: 10px;
+   margin: 10px 0px;
+}
+.menue ul li:hover,.active{
+  background-color: #57606d;
+ }
+.menue ul li a {
+    color: white;
+    font-size:30px;
+}
+.menue ul li a i span{
+    margin-left:70px;
+}
+.button{
+    list-style-type: none;
+    background-color:#610001;
+    border-radius: 10px;
+    /* position: absolute; */
+    bottom: 30px;
+    padding:20px 260px 20px 10px;
+    border-radius: 10px;
+    margin-top: 27vh;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+span{
+    margin-left:80px;
+
+    
+}
+.heading{
+    width: 75vw;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    margin: auto;
+    background-color:#0074fe ;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.part2{
+    width: 77vw;
+    display: flex;
+    justify-content: space-between;
+
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.box{
+    width: 19vw;
+    height: 19vh;
+    background-color: #111f2f;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+#per{
+    font-size: 40px;
+   
+}
+.box div{
+    height: 100px;
+    margin-top: -30px;
+}
+.box div p{
+    height: 20px;
+    font-weight: bold;
+}
+table{
+    width: 78vw;
+   text-align: center;
+   border-collapse: separate;
+    border-spacing: 10px 10px;
+    margin: auto;
+}
+tr{
+    height: 50px;
+}
+th{
+    background-color: #0074fe;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.cell1{
+    width: 50px;
+    padding: 5px 5px;
+    background-color: #A5ACE2;
+    margin: auto;
+    border-radius: 5px;
+}
+td{
+    height: 50px;
+    background-color: #111f2f;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.cell2{
+    width: 50px;
+    padding: 5px 5px;
+    background-color: #C1A875;
+    margin: auto;
+    border-radius: 5px;
+}
+.heading p{
+    font-size: 20px;
+    font-weight: bold;
+}
