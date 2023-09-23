@@ -43,7 +43,7 @@ body{
 .menue img{
   width: 80px;
   height: 70px;
-  border-radius: 50%;
+  border-radius: 5%;
   display: inline-block;
  border: 2px solid white;
  flex-shrink: 0;
